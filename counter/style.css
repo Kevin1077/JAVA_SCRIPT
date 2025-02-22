@@ -1,0 +1,28 @@
+button {
+    background-color: #696363;
+    color: white;
+    border: 2px solid #000; /* Added border */
+    padding: 15px 25px; /* Increased padding */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px; /* More rounded corners for an oval shape */
+}
+
+button:hover {
+    background-color: #0c0c0c;
+}
+
+#btnlabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    flex-direction: column; /* Added to stack buttons vertically */
+}
+
+#btncontainer {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Optional: Add some space between buttons */
+}
